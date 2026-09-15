@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hệ Thống Quản Lý Chỉ Số Điện & Nước</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden; /* Ẩn thanh cuộn của trang cha */
+      background-color: #f8f9fa;
+    }
+
+    /* Khung chứa iframe được đè lên trên để giấu banner Google */
+    .iframe-wrapper {
+      position: absolute;
+      top: -38px; /* ĐẨY BANNER GOOGLE LÊN TRÊN KHỎI MÀN HÌNH (Âm 38px) */
+      left: 0;
+      width: 100%;
+      height: calc(100% + 38px); /* Tăng chiều cao tương ứng để không mất góc dưới */
+      border: none;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="iframe-wrapper">
+    <!-- Thay link Web App Google Apps Script của bạn vào src dưới đây -->
+    <iframe src="https://script.google.com/macros/s/AKfyeby4Cean2-dn88VBE8yXE5zQx8T3AGCPK8I4-MBTQHIRnfxU1go4Dg9Gg5pVIyPJu39N/exec" allowfullscreen></iframe>
+  </div>
+
+</body>
+</html>
